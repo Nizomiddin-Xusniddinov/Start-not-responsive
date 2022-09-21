@@ -1,0 +1,598 @@
+/* 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yellowtail', cursive;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* universal_code */
+body{
+    letter-spacing: 0.36px;
+    color: rgba(82, 92, 96, 1);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.green{
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px; 
+    color: rgba(126, 182, 147, 1);
+}
+.green_title{
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    line-height: 65px;
+    color: green;
+    
+}
+.support_title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58.5px;
+    color: rgba(39, 76, 91, 1);
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(82, 92, 96, 1);
+}
+.little_title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+
+}
+section  .stars i{
+    color: rgba(255, 168, 88, 1);
+    font-size: 12px;
+}
+/* header_starting */
+header{
+    width: 100%;
+}
+header .navbar{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 40px 0px;
+    padding: 0px 30px;
+    
+
+}
+header .navbar ul{
+    width: 665px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 140px;
+}
+header .navbar ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: rgba(39, 76, 91, 1);
+}
+header .navbar ul li:nth-child(1) a{
+    color: green;
+}
+header .navbar ul li:nth-child(2) a{
+    border: 1px solid rgba(39, 76, 91, 1);
+}
+header .shop{
+    padding: 7px 33px 7px 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 14px;
+    border: 1px solid rgba(39, 76, 91, 1);
+    border-radius: 33px;
+    
+}
+header .shop i{
+    padding: 23px;
+    border-radius: 50%;
+    background-color: rgba(39, 76, 91, 1);
+    color: white;
+    margin-right: 10%;
+
+}
+header .shop p{
+    width: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: rgba(39, 76, 91, 1);
+}
+header .header_title{
+    width: 100%;
+    background: url("./img/meal.png") no-repeat bottom / cover;
+    padding: 220px 0px 274px 30px;
+
+}
+header .header_title .text{
+    width: 496px;
+}
+header .header_title .text {
+    width: 675px;
+}
+header .header_title .text h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 84px;
+    color: rgba(39, 76, 91, 1);
+    margin-top: 14px;
+    padding-bottom: 30px;
+
+}
+header .header_title .text a{
+    padding: 25px 25px 25px 33px;
+    background-color: rgba(239, 211, 114, 1);
+    border-radius: 16px;
+    margin-bottom: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgba(39, 76, 91, 1);
+
+}
+header .header_title .text i{
+    padding: 5px;
+    background-color: rgba(39, 76, 91, 1) ;
+    color: white;
+    border-radius: 50%;
+}
+/* section_starting */
+section{
+    width: 100%;
+}
+/* **** fruit_starting **** */
+
+section .fruit{
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 30px;
+}
+section .fruit img{
+    width: 550px;
+}
+section .fruit .left ,.right{
+    position: relative;
+}
+section .fruit .text{
+    position: absolute;
+    top: 105px;
+    left: 55px;
+}
+section .fruit .first .text p{
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    line-height: 65px;
+    color: white;
+    
+}
+section .fruit .first  .text h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    color: white;
+} 
+
+section .fruit .right text h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    color: black;
+} 
+/* **** about_starting **** */
+section .about{
+    padding: 130px 30px 140px 30px;
+    background-color: rgba(249, 248, 248, 1);
+}
+section .about .texts{
+    display: flex;
+    justify-content: space-between;
+}
+section .about .texts .support_title{
+    margin-bottom: 22px;
+
+}
+section .about .texts p{
+    margin-bottom: 56px;
+}
+section .about .texts .text .top ,.bottom{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .about .texts .text .top  img{
+   padding:  27px 23px 27px 31px ;
+   background-color: white;
+   border-radius: 20px;
+   align-self: start;
+   margin-right: 20px;
+}
+section .about .texts .text .bottom  img{
+   padding:  27px 23px 27px 31px ;
+   background-color: white;
+   border-radius: 20px;
+   align-self: start;
+   margin-right: 20px;
+}
+section .about .texts .text .shopnow{
+    padding: 25px 8px 24px 33px;
+    background-color: rgba(39, 76, 91, 1);
+    border-radius: 16px;
+    color: white;
+
+}
+section .about .texts .text .shopnow i{
+    padding: 11px 12px ;
+    background-color: rgba(51, 91, 107, 1);
+    color: white;
+    margin-left: 25px;
+    border-radius: 50%;
+}
+/* **** organic-starting **** */
+section .organic{
+    padding: 0px 30px;
+    
+    
+}
+section .organic .green_title ,.support_title{
+    text-align: center;
+}
+section .organic .flex{
+    width: 1230px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+
+}
+section .organic .img{
+    margin-top: 40px;
+    padding: 0px 10px;
+}
+section .organic .img .box{
+   
+    padding: 30px;
+    
+}
+section .organic .img .box .veg{
+    display: inline-block;
+  
+    border-radius: 8px;
+    padding: 5px 20px ;
+    background-color: rgba(39, 76, 91, 1);
+    font-size: 15px;
+    line-height: 27px;
+    color: white;
+}
+section .organic .img .box h3{
+    margin-top: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid rgba(212, 212, 212, 1);
+
+}
+section .organic .img .box .star{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .organic .img .box .star p:nth-child(1){
+    color: rgba(184, 184, 184, 1);
+    text-decoration: line-through;
+}
+
+/* **** jestimional_staarting **** */
+section .jestimional{
+    width: 100%;
+    background: url('./img/jestimional bac.png') no-repeat center / cover;
+    padding-top: 130px;
+    padding-bottom: 150px;
+    text-align: center;
+
+}
+section .jestimional .stars{
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+section .jestimional .little_title{
+    width: 996px;
+    margin: auto;
+    padding-top: 23px;
+    padding-bottom: 122px;
+    border-bottom: 2px solid rgba(224, 224, 224, 1);
+}
+section .jestimional .all{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 106px;
+}
+section .jestimional .all .circle{
+    width: 240px;
+    height: 240px;
+    border: 6px solid rgba(126, 182, 147, 1);
+    border-radius: 200px;
+}
+section .jestimional .all .circle p:nth-child(1){
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    text-align: center; 
+    padding-top: 81px;
+}
+/* **** offer_starting **** */
+section .offer{
+    width: 100%;
+    background-color: rgba(39, 76, 91, 1);
+    padding: 140px 20px;
+}
+section .offer .support_title{
+    text-align: left;
+    color: white;
+}
+section .offer .flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section .offer .flex a{
+    padding: 25px 25px 25px 33px;
+    background-color: rgba(239, 211, 114, 1);
+    border-radius: 16px;
+    margin-bottom: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgba(39, 76, 91, 1);
+
+}
+section .offer .flex a i{
+    padding: 5px;
+    background-color: rgba(39, 76, 91, 1) ;
+    color: white;
+    border-radius: 50%;
+}
+section .offer .all{
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+    justify-content: space-between;
+}
+section .offer .all .box{
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(249, 248, 248, 1);
+    border-radius: 30px;
+    
+}
+section .offer .all .box .veg{
+    display: inline-block;
+    background-color: rgba(39, 76, 91, 1);
+    border-radius: 8px;
+    padding: 5px 20px ;
+   
+    font-size: 15px;
+    line-height: 27px;
+    color: white;
+}
+section .offer .all .box h3{
+    margin-top: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid rgba(212, 212, 212, 1);
+
+}
+section .offer .all .box .star{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+section .offer .all .box .star p:nth-child(1){
+    color: rgba(184, 184, 184, 1);
+    text-decoration: line-through;
+}
+/* **** edo_starting **** */
+section .eco{
+    display: flex;
+    position: relative;
+    
+}
+
+section .eco .texts{
+    padding: 40px 40px 50px 60px;
+    width: 720px;
+    position: absolute;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 14px;
+    right: 0;
+    top: 40px;
+
+}
+section .eco .texts .support_title{
+    text-align: left;
+    padding-bottom: 30px;
+}
+section .eco .texts .p{
+    padding-bottom: 10px;
+}
+section .eco .texts .little_title{
+    color: rgba(39, 76, 91, 1);
+}
+/* **** juice_starting **** */
+section .juice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 0px;
+    background-color: rgba(239, 246, 241, 1);
+    
+}
+section .juice .box{
+    position: relative;
+}
+section .juice img{
+    width: 400px;
+}
+section .juice .box p{
+    padding: 30px 80px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    border-radius: 20px;
+}
+/* **** news_starting **** */
+section .news{
+    padding: 130px 30px 36px 30px;
+    background-color: white;
+}
+section .news .flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section .news .flex a{
+    padding: 25px 25px 25px 33px;
+    border: 1px solid rgba(39, 76, 91, 1);
+    background-color: transparent;
+    border-radius: 16px;
+    margin-bottom: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgba(39, 76, 91, 1);
+
+}
+section .news .flex a i{
+    padding: 5px;
+    background-color: rgba(39, 76, 91, 1) ;
+    color: white;
+    border-radius: 50%;
+}
+section .news .flex .support_title{
+    text-align: left;
+    font-size: 40px;
+}
+section .news .all{
+    display: flex;
+    justify-content: space-between;
+}
+section .news .all .box{
+    position: relative;
+}
+section .news .all .box .cherry{
+    width: 550px;
+}
+section .news .all .box .texts{
+    width: 500px;
+    
+    padding: 58px 42px 60px 45px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+section .news .all .box .texts .odam{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+section .news .all .box .texts .little_title{
+    padding-bottom: 38px;
+}
+section .news .all .box .texts .view {
+    margin-top: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(39, 76, 91, 1);
+}
+section .news .all .box .texts .view i{
+    margin-left: 10px;
+    padding: 6px 5px ;
+    background-color: rgba(51, 91, 107, 1);
+    border-radius: 50%;
+    color: white;
+}
+/* main_starting */
+main{
+    margin-top: 150px;
+    width: 100%;
+    padding: 110px 30px 50px 30px;
+    background-color: white;
+    background: url('./img/limon.png') no-repeat center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+}
+main form input{
+    width: 240px;
+    padding: 26px 0px 27px 30px;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    background-color: rgba(39, 76, 91, 1);
+}
+main form button{
+    width: 190px;
+    background-color: main form button;
+    color: white;
+    padding: 26px 11px 27px 36px;
+    border-radius: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    background-color: rgba(39, 76, 91, 1);
+}
+main form button i{
+    padding: 10px 11px;
+    color: white;
+    background-color: rgba(51, 91, 107, 1);
+    border-radius: 16px ;
+    
+}
+/* footer_starting */
+footer{
+    width: 100%;
+}
+
+
